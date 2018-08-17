@@ -1,0 +1,47 @@
+header {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maintitle {
+  color: white;
+  padding-left: 50px;
+}
+
+.menuhead {
+  padding-right: 20px;
+}
+
+.menulistheader {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-left: 20px;
+  font-weight: bolder;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+footer {
+  background: black;
+  color: white;
+  display: flex;
+}
+
+.menulistfooter {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

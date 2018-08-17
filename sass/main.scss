@@ -1,0 +1,41 @@
+$background: black;
+$headertextcolor: white;
+
+header {
+  background-color: $background;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.maintitle {
+  color: $headertextcolor;
+  padding-left: 50px;
+}
+.menuhead {
+padding-right: 20px;
+}
+.menulistheader {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding-left: 20px;
+  font-weight: bolder;
+  }
+a {
+  color:$headertextcolor
+}
+a:hover {
+  color:$headertextcolor;
+}
+footer {
+  background: $background;
+  color: $headertextcolor;
+  display: flex;
+}
+
+.menulistfooter {
+  list-style-type: none;
+}
