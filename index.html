@@ -2,54 +2,127 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>CoderDesign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FullDesign</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-<header>
-    <h1 class="maintitle">CoderDesign</h1>
-    <nav class="menuhead">
-      <ul class="menulistheader">
-        <li><a class"menuitems" href="#">Inicio</a></li>
-        <li><a class"menuitems" href="#">Quienes somos</a></li>
-        <li><a class"menuitems" href="#">Productos</a></li>
-        <li><a class"menuitems" href="#">Contacto</a></li>
-      </ul>
-    </nav>
-</header>
-<main>
-<div class="">
-  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-</div>
-<div class="container contactform">
-    <form class="" action="index.html" method="post">
-      <div class="form-group">
-        <label for="exampleInputEmail1">Nombre y Apellido</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Consulta</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-</div>
-</main>
-<footer>
-  <nav class="menufooter">
-    <ul class="menulistfooter">
-      <li><a class"menuitems" href="#">Inicio</a></li>
-      <li><a class"menuitems" href="#">Quienes somos</a></li>
-      <li><a class"menuitems" href="#">Productos</a></li>
-      <li><a class"menuitems" href="#">Contacto</a></li>
+<header id="mainicon">
+  <h1>
+    <a class="maintitle" href="#mainicon">FullDesign</a>
+  </h1>
+  <div class="menuhead">
+    <ul class="menulistheader">
+      <li>
+        <a href="#hwa">Quienes somos</a>
+      </li>
+      <li>
+        <a href="#product">Productos</a>
+      </li>
+      <li>
+        <a href="#forms">Contacto</a>
+      </li>
     </ul>
-  </nav>
-
+  </div>
+</header>
+<section class="sectionhwa" id="hwa">
+  <div class="title texthwa">
+    <h2>¿Quienes Somos?</h2>
+      <p>Somos un grupo de amigos que estudiamos carreras distintas pero al unir
+        nuestras diferencias, logramos ofrecer los mejores servicios de marketing digital y
+        diseño web.
+      </p>
+  </div>
+  <div class="containermembers">
+    <div class="pic">
+      <img src="images/Pala.jpg" alt="Foto de Javier Palau" class="profilepic">
+    </div>
+    <div>
+      <p class="name">Javier Palau</p>
+        <p>Desarrollador FullStack</p>
+    </div>
+    <div class="pic">
+      <img src="images/Paula.jpg" alt="Foto de Paula Cagnasso" class="profilepic">
+    </div>
+    <div>
+      <p class="name">Paula Cagnasso</p>
+        <p>Diseñadora</p>
+    </div>
+    <div class="pic">
+      <img src="images/Toro.jpg" alt="Foto de Octavio Ferreyra" class="profilepic">
+    </div>
+    <div>
+      <p class="name">Octavio Ferreyra</p>
+        <p>Marketing Digital</p>
+    </div>
+  </div>
+</section>
+<main class="containermain" id="product">
+  <div class="title">
+    <h2>Productos</h2>
+  </div>
+  <div class="products">
+    <div class="card productcard">
+        <img class="card-img-top" src="images/pagina.png" alt="Imagen representativa de un sitio wed">
+      <div class="card-body">
+        <h5 class="card-title">Desarrollo de sitios web</h5>
+        <p class="card-text">Creamos tu sitio web y le damos el mantenimiento necesario para que este siempre activo y con las ultimas actulizaciones.</p>
+      </div>
+    </div>
+    <div class="card productcard">
+        <img class="card-img-top" src="images/redes.jpg" alt="Imagen representativa de redes sociales">
+      <div class="card-body">
+        <h5 class="card-title">Manejo de redes sociales</h5>
+        <p class="card-text">Te creamos y administramos tus redes, para que vos solo te ocupes de tus podructos.</p>
+      </div>
+    </div>
+    <div class="card productcard">
+        <img class="card-img-top" src="images/estadisticas.jpg" alt="Imagen representativa de analisis de estadisticas">
+      <div class="card-body">
+        <h5 class="card-title">Estadisticas de impacto</h5>
+        <p class="card-text">Realizamos un analisis del impacto de tus productos en las redes sociales y brindamos soporte para ampliarlo.</p>
+      </div>
+    </div>
+  </div>
+</main>
+<section class="sectionform" id="forms">
+  <div class="title textform">
+    <h2>Contactanos</h2>
+    <p>No dudes en escribirnos. Te responderemos a la brevedad!</p>
+  </div>
+  <div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="w-100"></div>
+      <div class="col">
+        <form class="contactform" action="index.html" method="post">
+          <div class="form-group">
+            <label for="Text">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="Text">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email">
+          </div>
+          <div class="form-group">
+            <label for="Textarea">Consulta</label>
+            <textarea class="form-control" id="Textarea" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>Copyright © 2018, Javier</p>
+      <div>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href='https://www.twitter.com' target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href='https://www.instagram.com' target='_blank'><i class="fab fa-instagram"></i></a>
+      </div>
 </footer>
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
